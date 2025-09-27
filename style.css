@@ -1,0 +1,91 @@
+
+   
+   body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, rgb(3, 3, 128) 1%, #55a1ed );
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+   
+    .container {
+      background: linear-gradient(to bottom, black 60%, rgb(107, 105, 105) );
+      padding: 100px;
+      border-radius: 20px;
+      text-align: center;
+      width: 700px;
+    }
+   
+    h1 {
+      font-size: 80px;
+      margin-bottom: 20px;
+    }
+   
+    label {
+      font-size: 30px;
+      display: block;
+      margin-top: 15px;
+    }
+   
+    input {
+      padding: 10px;
+      font-size: 15px;
+      margin-top: 8px;
+      width: 50%;
+      border-radius: 8px;
+      border: none;
+    }
+   
+    #timer {
+      font-size: 150px;
+      margin: 25px 0;
+      font-weight: bold;
+    }
+   
+    button {
+      padding: 12px 20px;
+      font-size: 25px;
+      margin: 8px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    
+    #startbotton{ background: linear-gradient(to bottom, green, rgb(112, 193, 112)); 
+      color: white; 
+    }
+   
+    #resetbotton { background: linear-gradient(to bottom, rgb(23, 0, 128), rgb(51, 71, 182)); 
+      color: white; 
+    }
+   
+    #stopbotton { background:linear-gradient(to bottom, rgb(192, 11, 11) , rgb(231, 54, 54)  );
+       color: white; 
+      }
+   
+      #okbotton { background: orange; 
+      color: white; display: none;
+     }
+   
+   
+
+    #breakmessage {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 20px;
+      display: none;
+    }
+   
+  
+    body.light {
+      background: linear-gradient(to bottom, #f0f0f0, #dcdcdc);
+      color: black;
+    }
+   
+   
+    body.light .container {
+      background: black;
+    }
