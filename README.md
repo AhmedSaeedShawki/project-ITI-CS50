@@ -12,7 +12,6 @@ You can set the focus (work) time and break time, and the timer will automatical
 - Large and clear countdown timer display.
 - Sound alert when a session ends.
 - Motivational messages during breaks.
-- Toggle between **Dark Mode** and **Light Mode**.
 - Control buttons: **Start, Stop, Reset, OK**.
 
 
